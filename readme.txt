@@ -2,7 +2,7 @@
    王小刚  https://www.mia.com/   蜜芽
       
 
-      文件夹的作用:images:图片  ctrl:php数据
+      文件夹的作用:images:图片  ctrl:php数据  css:样式
 
         首页的路径: maiku.html
 
