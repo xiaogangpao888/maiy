@@ -1,0 +1,18 @@
+
+
+#register{width:800px;border:1px solid #666;margin-top:30px;background:url(../images/t003.jpg) no-repeat 400px 65px;}
+#register .rer{background:#e6e6e6;border-bottom:1px solid #666;}
+#register .rer span{font:18px/40px "";float: left;margin-left:15px;}
+#register .rer .rer-r{float: right;margin-right:15px;}
+#register .rer .rer-r b{font:14px/40px "";}
+#register .rer .rer-r a{display:inline-block;width:40px;font-size:16px;background:red;text-align:center;border-radius:5px;}
+#register .rer1{margin-top:60px;}
+#register .rer1 #txt{width:260px;height:35px;margin:0 0 20px 50px;}
+#register .rer1 #pass{width:260px;height:35px;margin:0 0 20px 50px;}
+
+#register .rer1 #btn{border:none;width:300px;background:red;height:48px;cursor: pointer;margin:0 0 0 30px;font-size:18px;}
+#register .a2{font:18px/100px "";color:blue;margin-left:30px;}
+
+#register .rer1 em{margin-left:30px;font:14px/44px "";display:inline-block;color:red;}
+#register .rer1 img{width:200px;height:100px;display:inline-block;}
+

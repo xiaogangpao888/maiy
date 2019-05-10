@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{background:#ff3893;}
+nav p{float:left;font:800 16px/46px "";color:#fff;padding:10px 70px 10px 40px;}
+nav ul{float:left;}
+nav ul li{float:left;text-align:center;}
+nav ul li a{color:#fff;display:block;font:16px/46px "";padding:10px 30px;}
+nav ul li a:hover{background:#ec0971;}
+nav ul li.te{background:#ec0971;}
+
+
+#banner{text-align: center;}
+#banner img{display:inline-block;margin:0 auto;}
+
+
+#goods1{background:#fff;}
+#goods1 .g1-t{background:#f9f9f9;}
+#goods1 .g1-t img{display:inline-block;width:12%;margin-left:15px;}
+#goods1 .g1-t span{font:20px/78px "";color:#666;margin-left:15px;}
+#goods1 .g1-b{border:1px solid #e5e5e5;overflow:hidden;}
+#goods1 .g1-b ul{width:110%;}
+#goods1 .g1-b ul li{float:left;border:1px solid #e5e5e5;width:273px;text-align:center;}
+#goods1 .g1-b ul li img{width: 70%;display: block;margin:10px auto;}
+#goods1 .g1-b ul li span{display:block;color: red;font:16px/26px "";}
+#goods1 .g1-b ul li p{height: 60px;overflow: hidden;font-size: 14px;line-height: 20px;}
+#goods1 .g1-b ul li .a2{display: block;width:80px;line-height: 28px;color: #fff;background: blue;margin: 5px auto;
+    cursor:pointer;border-radius:10px;}
+
+
+
+

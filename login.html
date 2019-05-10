@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" href="css/gonggong.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+<header>
+  <div class="margin clear">
+    <div class="h-l">手机迈酷</div>
+    <div class="h-r">
+        <b>你好，欢迎来到迈酷！</b>
+        <a href="login.html">登录</a>
+        
+        <a href="register.html">免费注册</a>
+        <a href="#">帮助中心</a>
+    </div>
+  </div>
+</header>
+    
+<section id="top">
+  <div class="margin clear">
+    <a href="#" class="logo"><img src="images/logo.jpg" /></a>
+  </div>
+</section>  
+
+
+<section id="banner" >
+  <div class="margin ban">
+   <img src="images/banner.jpg" />
+   <div class="login">
+       <div class="login-l">
+         <b>快捷登录</b>
+         <a href="register.html">注册新用户</a>
+       </div>
+       <div class="login-c">
+         <input type="text" id="user" placeholder="手机号码" /><br/>
+         <input type="password" id="pass" placeholder="密码" /><br/>
+         <label for="save"><input type="checkbox" id="save" checked>记住帐号密码</label><br>
+         <input type="button" value="登录" id="btn"><br>
+         <span></span>
+       </div>
+       <a href="maiku.html" class="a2">返回首页</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="case">
+  <ul class="clear margin">
+     <li>
+       <img src="images/16.png" alt="">
+       <h4>可信赖</h4>
+       <p>进口母婴特卖</p>
+     </li>
+     <li>
+       <img src="images/17.png" alt="">
+       <h4>无忧</h4>
+       <p>正品保证</p>
+     </li>
+     <li>
+       <img src="images/18.png" alt="">
+       <h4>7天</h4>
+       <p>无理由退货</p>
+     </li>
+     <li>
+       <img src="images/19.png" alt="">
+       <h4>恒温仓</h4>
+       <p>完善的货物仓储</p>
+     </li>
+     <li>
+       <img src="images/20.png" alt="">
+       <h4>24小时</h4>
+       <p>快速发货</p>
+     </li>
+     <li>
+       <img src="images/21.png" alt="">
+       <h4>100万</h4>
+       <p>妈妈口碑信赖</p>
+     </li>
+  </ul>
+</section>
+
+
+<section id="main">
+  <div class="margin clear">
+    <dl class="d1"> 
+        <dt>使用帮助</dt>
+        <dd>新手指南</dd>
+        <dd>会员体系</dd>
+        <dd>正品承诺</dd>
+    </dl>
+    <dl> 
+        <dt>支付方式</dt>
+        <dd>支付流程</dd>
+        <dd>跨境进口税</dd>
+    </dl>
+    <dl> 
+        <dt>配送方式</dt>
+        <dd>包邮政策</dd>
+        <dd>发货时间</dd>
+        <dd>配送区域</dd>
+        <dd>验货签收</dd>
+    </dl>
+    <dl> 
+        <dt>售后服务</dt>
+        <dd>退货政策</dd>
+        <dd>退货流程</dd>
+        <dd>退款方式</dd>
+    </dl>
+    <dl> 
+        <dt>联系方式</dt>
+        <dd>总裁邮箱 ceo@mai.com</dd>
+        <dd>商务合作 bd@mai.com</dd>
+        <dd>媒体合作 pr@mai.com</dd>
+        <dd>招商中心 zhaoshang@mai.com</dd>
+        <dd>企业采购 qiye@mai.com</dd>
+        <dd>廉政举报 jiancha@mai.com</dd>
+    </dl>
+  </div>
+</section>
+
+
+<section id="footer">
+  <div class="f-t">
+    <a href="#" style="margin-right:25px">关于迈酷</a>
+    
+    <a href="#" style="margin-right:25px">友情链接</a>
+    
+    <a href="#" style="margin-right:25px">站内搜索</a>
+    
+    <a href="#" style="margin-right:25px">网站地图</a>
+    
+    <a href="#" style="margin-right:25px">帮助中心</a>
+    
+    <a href="#" style="margin-right:25px">网站管理</a>
+    
+    <a href="#" style="margin-right:25px">媒体报道</a>
+    
+    <a href="#" style="margin-right:25px">联系我们</a>
+   
+    <a href="#" style="margin-right:25px">营业执照</a>
+  </div>
+  <p>Copyright 2007-2019 上海迈酷顾问有限公司 京ICP备12003911号-3 沪公网安备11010802011455号  站长统计  百度统计</p>
+  <p>COPYRIGHT &copy; 2009-2011,WWW.YOURNAME.COM.ALL RIGHTS RESERVED</p>
+  <p>版权所有 &copy; 您的网站名称 未经许可 严禁复制 沪ICP 备 XXXXXX号</p>
+</section>   
+
+</body>
+<script src="js/jquery.js"></script>
+<script>
+   class Login{
+        constructor(){
+            this.url = "http://www.icodeilife.cn/ctrl/login.php";
+            this.btn = $("#btn");
+            this.user = $("#user");
+            this.pass = $("#pass");
+            this.span = $("span");
+
+            this.init()
+        }
+        init(){
+            var that = this;
+            this.btn.click(function(){
+                that.load()
+            })
+        }
+        load(){
+            var that = this;
+            $.ajax({
+                url:this.url,
+                data:{
+                    user:this.user.val(),
+                    pass:this.pass.val()
+                },
+                success:function(res){
+                    switch(res){
+                        case "0":
+                            that.span.html("用户名密码不符");break;
+                        case "1":
+                            that.span.html("请重新登陆");break;
+                        default:
+                            that.span.html("登录成功，正在跳转");
+                            that.res = JSON.parse(res);
+                            setTimeout(() => {
+                                location.href = "maiku.html";
+                            }, 3000);
+                            that.display()
+                    }
+                },
+                beforeSend:function(){
+                    that.span.html("<img src='images/loading.gif'>")
+                }
+            })
+        }
+        display(){
+            console.log(this.res)
+        }
+    }
+
+    new Login()
+
+</script>
+</html>

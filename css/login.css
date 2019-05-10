@@ -1,0 +1,19 @@
+
+#banner{position: relative;border-top:3px solid red;}
+#banner img{display: inline-block;}
+#banner .login{background:#fff;position: absolute;top:80px;right:140px;}
+#banner .login .login-l{width:350px;}
+#banner .login .login-l b{font:18px/80px "";margin-left:10px;}
+#banner .login .login-l a{font:14px/80px "";color:blue;margin-left:180px;}
+#banner .login .login-c{margin-left:20px;}
+#banner .login .login-c #user{width:260px;height:40px;margin-bottom:6px;}
+#banner .login .login-c #pass{width:260px;height:40px;margin-bottom:10px;}
+#banner .login .login-c #btn{border:none;width:280px;background:red;height:40px;cursor: pointer;margin-top:10px;}
+#banner .login .a2{font:16px/80px "";color:blue;margin-left:20px;}
+#banner .login .login-c label{font:12px/20px "";}
+
+#banner .login .login-c span{margin-left:10px;font:14px/44px "";display:inline-block;color:red;}
+#banner .login .login-c img{width:200px;height:100px;display:inline-block;}
+
+
+
